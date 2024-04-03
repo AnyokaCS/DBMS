@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T20:51:59.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2EtSPzsVy973OSySgoGQ" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T21:29:18.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UQ7KCfqYpnDB3V2O2w2F" version="24.2.1" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
     <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-49" value="airport_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-47" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-49" value="airport_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-47" vertex="1">
           <mxGeometry x="30" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -113,7 +113,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-94" value="flight_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-92" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-94" value="flight_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-92" vertex="1">
           <mxGeometry x="30" width="240" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -274,7 +274,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-142" value="airline_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-140" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-142" value="airline_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-140" vertex="1">
           <mxGeometry x="30" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -365,7 +365,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dIQh5cxcYu6PImuJjPMK-175" value="Passenger Booking" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="380" width="250" height="280" as="geometry" />
+          <mxGeometry x="311" y="380" width="250" height="280" as="geometry" />
         </mxCell>
         <mxCell id="dIQh5cxcYu6PImuJjPMK-176" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="dIQh5cxcYu6PImuJjPMK-175" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -375,7 +375,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-178" value="booking_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-176" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-178" value="booking_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-176" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -482,7 +482,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-225" value="passenger_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-223" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-225" value="passenger_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-223" vertex="1">
           <mxGeometry x="30" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -811,7 +811,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-326" value="check_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-324" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-326" value="check_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-324" vertex="1">
           <mxGeometry x="30" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -850,7 +850,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-341" value="updated_at date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="dIQh5cxcYu6PImuJjPMK-339" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-341" value="updated_at date NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="dIQh5cxcYu6PImuJjPMK-339" vertex="1">
           <mxGeometry x="30" width="200" height="30" as="geometry">
             <mxRectangle width="200" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -879,7 +879,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dIQh5cxcYu6PImuJjPMK-371" value="baggage_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-369" vertex="1">
+        <mxCell id="dIQh5cxcYu6PImuJjPMK-371" value="baggage_id int NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="dIQh5cxcYu6PImuJjPMK-369" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
