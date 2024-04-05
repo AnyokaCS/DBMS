@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T17:27:27.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="SM3QRWExNJ_rKo564CAG" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T17:34:51.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ANqlRBb-s7bhpdtYxoc5" version="24.2.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1750" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -618,23 +618,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-140" value="Booking Changes" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="295" width="265" height="275" as="geometry" />
+          <mxGeometry x="1000" y="300" width="280" height="275" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-141" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="30" width="265" height="30" as="geometry" />
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-142" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-141">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SPpf7Z5be4IZ0P9TYkn-143" value="booking_id seral NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-141">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+        <mxCell id="7SPpf7Z5be4IZ0P9TYkn-143" value="booking_changes_id seral NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-141">
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-144" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="60" width="265" height="30" as="geometry" />
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-145" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-144">
           <mxGeometry width="30" height="30" as="geometry">
@@ -642,12 +642,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-146" value="booking_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-144">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-147" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="90" width="265" height="30" as="geometry" />
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-148" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-147">
           <mxGeometry width="30" height="30" as="geometry">
@@ -655,12 +655,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-149" value="status varchar(10) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-147">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-150" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="120" width="265" height="25" as="geometry" />
+          <mxGeometry y="120" width="280" height="25" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-151" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-150">
           <mxGeometry width="30" height="25" as="geometry">
@@ -668,12 +668,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-152" value="booking_platform varchar(30) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-150">
-          <mxGeometry x="30" width="235" height="25" as="geometry">
-            <mxRectangle width="235" height="25" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="25" as="geometry">
+            <mxRectangle width="250" height="25" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-153" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="145" width="265" height="30" as="geometry" />
+          <mxGeometry y="145" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-154" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-153">
           <mxGeometry width="30" height="30" as="geometry">
@@ -681,12 +681,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-155" value="created_at timestamp NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-153">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-156" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="175" width="265" height="30" as="geometry" />
+          <mxGeometry y="175" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-157" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-156">
           <mxGeometry width="30" height="30" as="geometry">
@@ -694,12 +694,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-158" value="updated_at timestamp NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-156">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-159" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="205" width="265" height="30" as="geometry" />
+          <mxGeometry y="205" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-160" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-159">
           <mxGeometry width="30" height="30" as="geometry">
@@ -707,12 +707,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-161" value="ticket_price decimal NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-159">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-162" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-140">
-          <mxGeometry y="235" width="265" height="30" as="geometry" />
+          <mxGeometry y="235" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-163" value="FK2" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-162">
           <mxGeometry width="30" height="30" as="geometry">
@@ -720,8 +720,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-164" value="passenger_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1" vertex="1" parent="7SPpf7Z5be4IZ0P9TYkn-162">
-          <mxGeometry x="30" width="235" height="30" as="geometry">
-            <mxRectangle width="235" height="30" as="alternateBounds" />
+          <mxGeometry x="30" width="250" height="30" as="geometry">
+            <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-165" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endFill=0;endSize=10;startSize=10;" edge="1" parent="1" source="7SPpf7Z5be4IZ0P9TYkn-83" target="7SPpf7Z5be4IZ0P9TYkn-144">
@@ -834,6 +834,9 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1395" y="725" as="sourcePoint" />
             <mxPoint x="1300" y="655" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="610" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7SPpf7Z5be4IZ0P9TYkn-188" value="Baggage Registration" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
